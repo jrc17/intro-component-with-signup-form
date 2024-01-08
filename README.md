@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jrc17/intro-component-with-signup-form/blob/main/README.md)
+- Solution URL: [Github](https://github.com/jrc17/intro-component-with-signup-form)
 - Live Site URL: [Website](https://jrc17.github.io/intro-component-with-signup-form/)
 
 ## My process
