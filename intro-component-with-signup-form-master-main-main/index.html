@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="grid">
+      <h1>Learn to code by watching others</h1>
+      <p class="info">
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+      <p class="trial border">
+        <span>Try it free 7 days</span> then $20/mo. thereafter
+      </p>
+      <div class="trial-form border grid">
+        <form class="grid">
+          <div class="input-field">
+            <input
+              type="text"
+              id="first_name"
+              name="first_name"
+              class="input-text border"
+              placeholder="First Name"
+              required
+            />
+            <img
+              src="images/icon-error.svg"
+              class="icon-error remove"
+              aria-hidden="true"
+            />
+            <p class="error-msg remove">First name cannot be empty</p>
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              id="last_name"
+              name="last_name"
+              class="input-text border"
+              placeholder="Last Name"
+              required
+            />
+            <img
+              src="images/icon-error.svg"
+              class="icon-error remove"
+              aria-hidden="true"
+            />
+            <p class="error-msg remove">Last name cannot be empty</p>
+          </div>
+
+          <div class="input-field">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="input-text border"
+              placeholder="Email Address"
+              required
+            />
+            <img
+              src="images/icon-error.svg"
+              class="icon-error remove"
+              aria-hidden="true"
+            />
+            <p class="error-msg remove">Email cannot be empty</p>
+          </div>
+
+          <div class="input-field">
+            <input
+              type="password"
+              id="pwd"
+              name="pwd"
+              class="input-text border"
+              placeholder="Password"
+              required
+            />
+            <img
+              src="images/icon-error.svg"
+              class="icon-error remove"
+              aria-hidden="true"
+            />
+            <p class="error-msg remove">Password cannot be empty</p>
+          </div>
+          <input
+            type="submit"
+            id="submit"
+            name="submit"
+            class="border"
+            value="Claim your free trail"
+            required
+          />
+        </form>
+        <p class="terms">
+          By clicking the button, you are agreeing to our
+          <span>Terms and Services</span>
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.frontendmentor.io/profile/jrc17">Jayanthi</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
